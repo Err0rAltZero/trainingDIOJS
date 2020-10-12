@@ -1,3 +1,27 @@
+function soma(n1,n2){
+    return n1+n2
+}
+var validar=0;
+function validaIdade(idade){
+    validar;
+    if(idade >= 18){
+        var validar = true;
+    }else{
+        validar=false;
+    }
+    return validar;    
+}
+var idade=prompt("Qual sua idade?")
+console.log(validaIdade(idade));
+alert(soma(5,10));
+
+
+/*
+var lista=["N1","N2","N3"];
+lista.push("N4");
+lista.pop("N1");
+console.log(lista);
+*/
 /*
 var d=new Date();
 alert(d.getMonth()+1);
