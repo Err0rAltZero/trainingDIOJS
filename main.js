@@ -1,6 +1,24 @@
-function soma(n1,n2){
-    return n1+n2
+function clicked(){
+    document.getElementById("Thanks").innerHTML="<b>Thank You!</b>";
+    //console.log(document.getElementById("Thanks"));
 }
+function redirect(){
+    window.open("https://www.google.com.br/");
+    //window.location.href="https://www.google.com.br/";
+}
+function change(elemento){
+    elemento.innerHTML="Mouse There!";
+}
+function back(elemento){
+    elemento.innerHTML="Mouse Here!";
+}
+function load(){
+    alert("Ready!");
+}
+function fChange(elemento){
+    console.log(elemento.value);
+}
+/*
 var validar=0;
 function validaIdade(idade){
     validar;
@@ -14,7 +32,7 @@ function validaIdade(idade){
 var idade=prompt("Qual sua idade?")
 console.log(validaIdade(idade));
 alert(soma(5,10));
-
+*/
 
 /*
 var lista=["N1","N2","N3"];
